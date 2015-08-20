@@ -6,12 +6,14 @@
     <groupId>com.develogical</groupId>
     <version>1.0-SNAPSHOT</version>
     <artifactId>aepfacts</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-servlet</artifactId>
             <version>7.4.5.v20110725</version>
         </dependency>
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
@@ -25,6 +27,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
